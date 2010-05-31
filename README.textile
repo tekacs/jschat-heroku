@@ -1,0 +1,28 @@
+This is a simple Heroku app which pulls in the excellent JSChat gem and
+connects to the JSChat server specified in config.json.
+
+JSChat can be found here: http://github.com/alexyoung/jschat/
+
+Please note that (as far as I know) you can't currently host the JSChat
+*server* on Heroku, so this will have to be elsewhere.
+
+h3. Config
+
+Configuration consists solely of settings values in the file 'config.json'
+as follows:
+
+<pre>
+{
+    "port": integer
+    "ip": "hostname or IP"
+}
+</pre>
+
+An example configuration file would be as follows:
+
+<pre>
+{
+    "port": 3001,
+    "ip": "example.com"
+}
+</pre>
