@@ -13,7 +13,7 @@ as follows:
 
 <pre>
 {
-    "port": integer
+    "port": integer,
     "ip": "hostname or IP"
 }
 </pre>
