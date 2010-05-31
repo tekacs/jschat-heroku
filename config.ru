@@ -11,4 +11,5 @@ set :environment, :production
 ARGV << '-c' << File.join(File.expand_path(File.dirname(__FILE__)), 'config.json')
 require 'jschat/http/jschat'
 set :views, File.expand_path(File.join(File.dirname(__FILE__), 'views'))
+set :public, File.expand_path(File.join(File.dirname(__FILE__), 'public'))
 run Sinatra::Application
