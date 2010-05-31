@@ -1,7 +1,7 @@
 This is a simple Heroku app which pulls in the excellent JSChat gem and
 connects to the JSChat server specified in config.json.
 
-JSChat can be found here: http://github.com/alexyoung/jschat/
+JSChat can be found here: "http://github.com/alexyoung/jschat/":http://github.com/alexyoung/jschat/
 
 Please note that (as far as I know) you can't currently host the JSChat
 *server* on Heroku, so this will have to be elsewhere.
